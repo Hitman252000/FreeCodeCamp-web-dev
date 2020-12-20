@@ -1,0 +1,31 @@
+#title,p,#img-div,h2 {
+  text-align:center;
+}
+#title {
+  text-shadow: 2px 2px 5px red;
+}
+#image {
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+  
+  
+}
+#main {
+  font-family:verdana;
+  background-color:lightgray;
+}
+#head {
+  padding:10px;
+}
+p{font-size:1.3em;}
+#img-div {background-color:white;
+padding:35px;
+margin-left:50px;
+margin-right:50px;}
+ #new {
+  width:100%;
+  display:flex;
+  justify-content:center;
+  align-text:center;
+}

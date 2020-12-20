@@ -1,0 +1,67 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<head>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=neon|outline|emboss|shadow-multiple"></head>
+<h1 class="font-effect-emboss" id="title">FCC Survey Form</h1>
+<p id="description"><i>Thank you for taking the time to help us improve the platform</i></p>
+
+<form active="#" id="survey-form">
+  
+  <label id="name-label" for="name">Name<br>
+    <input type="text" id="name" required placeholder="Enter your name"></label><br>
+  
+  <label id="email-label" for="email">
+    E-mail<br><input id="email" type="email" required placeholder="Enter your email address"></label><br>
+   
+  <label id="number-label" for="number">Age<br><input id="number" type="number" min="0" max="204099" required placeholder="Your Age"></label><br>
+  
+  <label id="dd">Which option describes your current role<br>
+
+  <select id="dropdown">
+  <option>Student</option>
+  <option>Nulla</option>
+  <option>Full time Nulla</option>
+  <option>Gamer</option>
+  <option>Other</option>
+  <option>Hitman</option>
+  </select></label><br>
+  <label>Would you recomend fcc to a friend ?</label><br>
+ 
+  <label id="rec">
+  <label for="definitely"><input id="definitely" type="radio" name="fcc" value="Definitely">Definitely Not</label><br>
+  
+  <label for="Yes-obviously"><input id="Yes-obviously" type="radio" name="fcc" value="Yes Obviously">Yes Obviously</label><br>
+ 
+  <label for="not-sure"><input id="not-sure" name="fcc" type="radio" value="Not Sure">Not Sure</label></label><br>
+  
+  <label id="imp">
+  <label>What would you like to see improved? (Check all that apply) </label><br>
+  
+  <label for="Front-end Project"><input id="Front-end Project" name="name" type="checkbox" value="Front-end Projects">Front-end Projects</label><br>
+  
+  <label for="Back-end Project"><input id="Back-end Project" name="name" type="checkbox" value="Back-end Projects">Back-end Projects</label><br>
+  
+  <label for="Data Visualization"><input id="Data Visualization" name="name" type="checkbox" value="Data Visualization">Data Visialization</label><br>
+  
+  <label for="Challenges"><input id="Challenges" name="name" type="checkbox" value="Challenges">Challenges</label><br>
+  
+  <label for="Open Source Community"><input id="Open Source Community" name="name" type="checkbox" value="Open Source Community">Open Source Community</label><br>
+ 
+  <label for="Gitter help rooms"><input id="Gitter help rooms" name="name" type="checkbox" value="Gitter help rooms">Gitter help rooms</label><br>
+  
+  <label for="Videos"><input id="Videos" name="name" type="checkbox" value="Videos">Videos</label><br>
+  
+  <label for="City Meetups"><input id="City Meetups" name="name" type="checkbox" value="City Meetups">City Meetups</label><br>
+  
+  <label for="Wiki"><input id="Wiki" name="name" type="checkbox" value="Wiki">Wiki</label><br>
+ 
+  <label for="Forum"><input id="Forum" name="name" type="checkbox" value="Forum">Forum</label><br>
+  
+  <label for="Additional Courses"><input id="Additional Courses" name="name" type="checkbox" value="Additional Courses">Additional Courses</label></label><br>
+  
+  <label id="textarea">Any comment or suggestions?<br>
+ 
+  <textarea placeholder="Enter your comment here"></textarea></label><br>
+                         
+<button type="submit" id="submit">Submit</button>
+
+</form>

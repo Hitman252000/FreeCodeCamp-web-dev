@@ -1,0 +1,139 @@
+
+* {
+  box-sizing:border-box;
+}
+html{
+scroll-behavior: smooth;
+}
+body {
+  color:white;
+  background-color:#90ee90;
+}
+#main {
+  width=100%;
+  margin:30px;
+  position:relative;
+  font-family:verdana,sans-serif;
+}
+#header {
+  position:fixed;
+  width:100%;
+  top:0;
+  left:0;
+  display:flex;
+  justify-content:space-around;
+  color:white;
+  background-color:rgba(13,120,26,0.8);
+}
+#header-img {
+  width:80px;
+  height:80px;
+  padding:5px 0 0 3px;
+}
+#h {
+  font-size:50px;
+  padding:5px 0 0 3px;
+  font-family: "Sofia", sans-serif;
+  text-shadow:10px 10px 25px #6ed696;
+}
+ul {
+  display:flex;
+}
+#a {
+  list-style-type:none;
+  padding: 0px 12px 0 0;
+  font-family:;
+  font-size:22px;
+}
+a {
+  color:#ffb5a5;
+}
+.nav-link {
+  text-decoration:none;
+}
+@media (max-width:600px) {
+  ul {
+    
+    display:flex;    
+    flex-direction:column;
+  }
+  #header-img {
+    padding:20px 0 0px 20px;
+  }
+  #h {margin:15px 0 0 25px;}
+  #video {
+    width:300px;
+    height:200px;
+  }
+}
+#s1 {
+  margin-top:100px;
+}
+h2 {
+  display:flex;
+  justify-content:center;
+  margin-bottom:-5px;
+}
+#mem {
+  margin-bottom:40px;
+}
+#form {
+  margin-top:20px;
+}
+#email {
+  width:100%;
+  margin: 5px 0 7px 0;
+  border-radius:5px;
+  border-color:#000000;
+}
+#submit {
+  width:70%;
+  height:30px;
+  background-color:lightgreen;
+  margin: 5px 0 auto 15%;
+  border-color:#000000;
+  border-radius:5px;
+}
+@media (min-width:450px) {
+  #mem,#video,#form {
+    margin-left:50px;
+    margin-right:50px;
+  }
+}
+@media (min-width:560px) {
+  #mem,#video,#form {
+    margin-left:140px;
+    margin-right:140px;
+  }
+}
+@media (min-width:680px) {
+  #mem,#video,#form {
+    margin-left:200px;
+    margin-right:200px;
+  }
+}
+@media (min-width:880px) {
+  #mem,#video,#form {
+    margin-left:280px;
+    
+    margin-right:280px;
+  }
+}
+@media (min-width:1010px) {
+  #mem,#video,#form {
+    margin-left:330px;
+    margin-right:330px;
+  }
+}
+@media (min-width:1130px) {
+  #mem,#video,#form {
+    margin-left:430px;
+    margin-right:400px;
+  }
+}
+@media (min-width:1280px) {
+  #mem,#video,#form {
+    margin-left:490px;
+    margin-right:400px;
+  }
+}
